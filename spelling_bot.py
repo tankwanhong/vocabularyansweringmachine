@@ -10,7 +10,7 @@ import os
 openai.api_key = os.getenv("OPENAI_API_KEY")
 AUDIO_FILENAME = "word.wav"
 RECORD_SECONDS = 4
-URL = "https://www.vocabulary.com/play/spelling-bee"
+URL = "https://www.vocabulary.com/lists/52473/practice"
 
 def run_bot():
     driver = webdriver.Chrome()
